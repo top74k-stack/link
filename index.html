@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>좁은 주방 실측단 상품 모음</title>
+<meta name="description" content="좁은 주방 실측단 영상에 나온 상품을 번호로 찾아보세요. 사기 전 확인할 단점도 함께 적어 두었어요.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap">
+<style>
+:root{--tile:#EEF2F1;--grout:#D3DCDA;--tape:#F2C230;--ink:#1F2B2B;--warn:#C8352B;--paper:#FFFFFF;--muted:#5E6B6A}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;color:var(--ink);font-family:Pretendard,"Apple SD Gothic Neo",system-ui,sans-serif;line-height:1.55;
+background-color:var(--tile);
+background-image:linear-gradient(var(--grout) 1px,transparent 1px),linear-gradient(90deg,var(--grout) 1px,transparent 1px);
+background-size:44px 44px}
+.wrap{max-width:480px;margin:0 auto;padding:0 16px 48px}
+.rule{height:34px;background:var(--tape);border-bottom:2px solid var(--ink);
+background-image:repeating-linear-gradient(90deg,var(--ink) 0 2px,transparent 2px 10px),
+repeating-linear-gradient(90deg,var(--ink) 0 2px,transparent 2px 50px);
+background-size:100% 9px,100% 16px;background-repeat:no-repeat;background-position:0 100%,0 100%}
+.rule span{display:inline-block;margin:6px 16px;padding:0 6px;background:var(--tape);font-weight:800;font-size:14px}
+header{padding:28px 0 8px}
+h1{font-size:32px;line-height:1.2;margin:0 0 8px;letter-spacing:-.02em;font-weight:900}
+.lead{margin:0 0 20px;color:var(--muted);font-size:15px}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
+nav a{min-width:44px;height:44px;display:grid;place-items:center;background:var(--paper);border:2px solid var(--ink);
+border-radius:6px;color:var(--ink);text-decoration:none;font-weight:800;font-size:17px}
+nav a:focus-visible,.go:focus-visible,.vid:focus-visible{outline:3px solid var(--warn);outline-offset:2px}
+.disclosure{font-size:13px;color:var(--muted);background:var(--paper);border-left:4px solid var(--ink);padding:10px 12px;margin:0 0 28px}
+.item{position:relative;background:var(--paper);border:2px solid var(--ink);border-radius:4px;padding:28px 16px 16px;margin:0 0 28px;scroll-margin-top:16px}
+.item:target{box-shadow:0 0 0 4px var(--tape)}
+.tape{position:absolute;top:-14px;left:12px;transform:rotate(-3deg);background:var(--tape);opacity:.95;
+font-family:"Nanum Pen Script",cursive;font-size:30px;line-height:1;padding:4px 14px 2px;border-left:3px dashed rgba(0,0,0,.18);border-right:3px dashed rgba(0,0,0,.18)}
+.head{display:flex;gap:14px;align-items:center}
+.thumb{flex:0 0 76px;height:76px;border:1px solid var(--grout);border-radius:4px;overflow:hidden;background:var(--tile);display:grid;place-items:center}
+.thumb img{width:100%;height:100%;object-fit:cover}
+.ph{font-size:30px;font-weight:900;color:var(--muted)}
+h2{font-size:20px;line-height:1.3;margin:0;letter-spacing:-.01em}
+.caution{margin:16px 0 12px;padding:10px 12px;font-size:15px;background:
+linear-gradient(var(--paper),var(--paper)) padding-box,
+repeating-linear-gradient(90deg,var(--warn) 0 10px,var(--tape) 10px 20px) border-box;border:3px solid transparent;border-radius:2px}
+.caution strong{display:block;color:var(--warn);font-size:13px;margin-bottom:2px}
+.caution.none{color:var(--muted)}
+.price{margin:0 0 14px;font-size:22px;font-weight:900}
+.price span{display:block;font-size:12px;font-weight:500;color:var(--muted)}
+.price.muted{font-size:16px;font-weight:700;color:var(--muted)}
+.act{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.go{flex:1 1 auto;text-align:center;background:var(--ink);color:#fff;text-decoration:none;font-weight:800;padding:14px 16px;border-radius:6px}
+.go.off{background:var(--grout);color:var(--muted)}
+.vid{color:var(--ink);font-size:14px;font-weight:700}
+footer{font-size:12px;color:var(--muted);text-align:center;padding-top:8px}
+.empty{background:var(--paper);border:2px dashed var(--ink);padding:24px;text-align:center}
+</style></head>
+<body>
+<div class="rule"><span>좁은 주방 실측단</span></div>
+<main class="wrap">
+<header>
+<h1>사기 전에<br>단점부터 보세요</h1>
+<p class="lead">영상에서 말한 번호를 누르면 그 상품으로 바로 가요.</p>
+</header>
+
+<nav aria-label="상품 번호"></nav>
+<p class="disclosure">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+<p class="empty">아직 올라온 상품이 없어요. 영상이 올라오면 여기 번호가 생겨요.</p>
+<footer><p>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p><p>가격과 재고는 쿠팡에서 바뀔 수 있어요.</p></footer>
+</main>
+</body></html>
